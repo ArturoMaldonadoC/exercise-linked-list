@@ -34,4 +34,8 @@ public class LinkedList {
     public void insert (Student reference, Student newStudent){
 
     }
+
+    public class IteratorArrayList{
+
+    }
 }
