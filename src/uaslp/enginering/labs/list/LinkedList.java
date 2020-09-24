@@ -1,6 +1,25 @@
 package uaslp.enginering.labs.list;
 
+import uaslp.enginering.labs.model.Student;
+
 public class LinkedList {
+
+
+    public enum InsertPosition {
+        BEFORE,
+        AFTER
+    }
+
+    public class Iterator{
+
+        public boolean hasNext() {
+            return false;
+        }
+
+        public Student next() {
+            return null;
+        }
+    }
 
     private Node front;
     private Node tail;
@@ -17,7 +36,7 @@ public class LinkedList {
 
     }
 
-    public IteratorArrayList getIterator (){
+    public Iterator getIterator (){
 
         return null;
 
@@ -31,11 +50,9 @@ public class LinkedList {
         return null;
     }
 
-    public void insert (Student reference, Student newStudent){
+    public void insert(Student reference, Student newStudent, InsertPosition insertPosition){
 
     }
 
-    public class IteratorArrayList{
 
-    }
 }

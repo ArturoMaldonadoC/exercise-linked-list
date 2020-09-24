@@ -1,5 +1,7 @@
 package uaslp.enginering.labs.list;
 
+import uaslp.enginering.labs.model.Student;
+
 public class Node {
 
     private Student student;
